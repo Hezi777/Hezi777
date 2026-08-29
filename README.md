@@ -30,6 +30,7 @@ parts done.
 |---|---|
 | **[Tada](https://github.com/Hezi777/Tada)** | Upload a spreadsheet, get a production-quality analytics dashboard: AI-generated charts, KPIs and a conversational copilot. Next.js, TypeScript, Supabase, Groq. |
 | **[SheetSync](https://github.com/Hezi777/SheetSync)** | Windows desktop app that keeps local Excel workbooks in sync with Google Sheets, automatically or on demand. Python, React, packaged with signed releases. |
+| **[Sky](https://github.com/Hezi777/Sky)** | Personal dashboard built three ways on one backend: Next.js API, Electron desktop shell, and a native SwiftUI macOS/iOS client. |
 | **[Compass](https://github.com/Hezi777/Compass)** | React re-implementation of an Azure DevOps analytics dashboard covering bugs, PRs, CI/CD and hours. Originally built in Qlik Sense; rebuilt to see how far a hand-built front end goes past what the BI tool allows. |
 | **[MovieETL](https://github.com/Hezi777/MovieETL)** | ETL pipeline loading IMDb data into PostgreSQL with pandas and SQLAlchemy. |
 | **[AdventureWorks](https://github.com/Hezi777/adventureworks-dashboard)** | Power BI on a star-schema model: explicit measures, time intelligence, budget vs actual, generated SVG KPI sparklines. |
