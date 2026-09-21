@@ -1,6 +1,6 @@
 ## Hen Zrihen
 
-BI Developer in an IDF data-science group. I build production BI end to end:
+BI Developer in a data-science group. I build production BI end to end:
 requirements, data model, ETL, dashboards, and the maintenance nobody plans for.
 
 Most of my work is on the engineering side of BI. Star and constellation schemas,
