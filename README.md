@@ -1,26 +1,23 @@
 ## Hen Zrihen
 
-BI Developer in a data-science group. I build production BI end to end:
-requirements, data model, ETL, dashboards, and the maintenance nobody plans for.
+AI implementer with a data background. I take a business problem that isn't fully
+defined yet and turn it into an AI tool people actually use.
 
-Most of my work is on the engineering side of BI. Star and constellation schemas,
-ingestion from SQL databases, REST APIs and raw model logs, and keeping
-transformation logic in the warehouse instead of the BI tool, so applications
-stay stable as they grow.
+Most of the work happens before any model is involved: figuring out what people
+really need, getting the data right, and agreeing on what a correct answer looks
+like. Then I build it end to end, wire it into the tools people already work with,
+and test it against real answers before anyone relies on it.
 
-The part I care about is the distance between a correct number and a screen
-someone opens every morning and acts on.
-
-The other half is building the products themselves. Same instinct, other side of
-the screen. I'd rather own the thing people use than the report about it. Most of
-what's here is that: full-stack side projects, shipped, with the unglamorous
-parts done.
+The part I care about is the distance between something that works in a demo and
+something a team opens every morning and trusts.
 
 ---
 
-**Data and BI**  Power BI · Qlik Sense · SQL · PostgreSQL · Python · pandas · dimensional modeling · ETL/ELT
+**AI**  Claude API · Claude Code (subagents, skills, hooks, MCP) · RAG · LLM evals
 
-**Product**  TypeScript · React · Next.js · NestJS · Tailwind · Supabase · Prisma
+**Code**  Python · SQL · TypeScript · React · Next.js · Swift / SwiftUI
+
+**Data**  PostgreSQL · data modeling · ETL · Power BI · Qlik Sense
 
 ---
 
@@ -28,14 +25,13 @@ parts done.
 
 | | |
 |---|---|
-| **[Tada](https://github.com/Hezi777/Tada)** | Upload a spreadsheet, get a production-quality analytics dashboard: AI-generated charts, KPIs and a conversational copilot. Next.js, TypeScript, Supabase, Groq. |
-| **[SheetSync](https://github.com/Hezi777/SheetSync)** | Windows desktop app that keeps local Excel workbooks in sync with Google Sheets, automatically or on demand. Python, React, packaged with signed releases. |
-| **[Sky](https://github.com/Hezi777/Sky)** | Personal dashboard built three ways on one backend: Next.js API, Electron desktop shell, and a native SwiftUI macOS/iOS client. |
-| **[Compass](https://github.com/Hezi777/Compass)** | React re-implementation of an Azure DevOps analytics dashboard covering bugs, PRs, CI/CD and hours. Originally built in Qlik Sense; rebuilt to see how far a hand-built front end goes past what the BI tool allows. |
-| **[MovieETL](https://github.com/Hezi777/MovieETL)** | ETL pipeline loading IMDb data into PostgreSQL with pandas and SQLAlchemy. |
-| **[AdventureWorks](https://github.com/Hezi777/adventureworks-dashboard)** | Power BI on a star-schema model: explicit measures, time intelligence, budget vs actual, generated SVG KPI sparklines. |
-| **[Lumia](https://github.com/Hezi777/Lumia)** | Full-stack photo sharing platform. React 19, NestJS, Prisma, PostgreSQL. |
-| **[Esc](https://github.com/Hezi777/Esc)** | PyQt6 desktop tool for calculating statistical effect sizes. |
+| **[Tada](https://github.com/Hezi777/tada-legacy)** | Upload a spreadsheet, get an analytics dashboard: AI-generated charts, KPIs and a conversational copilot, with retrieval over BI design rules so the charts follow them. Next.js, TypeScript, Supabase. |
+| **[Neat](https://github.com/Hezi777/Neat)** | Native macOS app that turns saved TikTok and Threads posts into folders: media, transcript, on-screen text and the tools each post points to. A Claude Code session does the organizing, so the intelligence lives in prompts, not the app. |
+| **[Sky](https://github.com/Hezi777/Sky)** | Personal dashboard aggregating ~12 APIs on one backend: Next.js API, Electron desktop shell, and a native SwiftUI client. |
+| **[SheetSync](https://github.com/Hezi777/SheetSync)** | Windows desktop app that keeps local Excel workbooks in sync with Google Sheets. Python, React, packaged with signed releases. |
+| **[Tilted](https://github.com/Hezi777/Tilted)** | Phone-first Hebrew web app for a home poker game: shared rooms, buy-ins, who owes whom. |
+| **[Pezzy](https://github.com/
+Hezi777/pezzy-app)** | Streaming front end built the way a real one has to be: tokenized media proxy, hardened egress, HLS rewriter. Runs from a fresh clone with no keys. |
 
-Most of my work is in private repos: client projects and things not ready to
+Some of my work is in private repos: client projects and things not ready to
 read. Happy to walk through any of it.
